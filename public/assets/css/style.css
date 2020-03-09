@@ -1,0 +1,194 @@
+h1 {
+  font-size: 60px;
+}
+h2 {
+  padding: 20px 0;
+}
+.top h1 {
+  margin: 50px 0 10px;
+}
+.main h2 {
+  text-align: left;
+}
+p.dataNote{
+  margin-top: 0;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #c7c4c4;
+}
+.dataTrail {
+  padding-left: 15px;
+  line-height: 2em;
+  font-size: 1.5em;
+  background-color: rgb(247, 247, 246);
+}
+label {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.title {
+  display: block;
+  text-align: center;
+}
+.form-control {
+  margin-bottom: 11px;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.main {
+  padding: 100px 0px;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  margin-top: -64px;
+}
+.btn-primary,
+.btn-primary2 {
+  color: #fff;
+  background-color: black;
+  border: 0px;
+  width: 150px;
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 60px;
+  margin-right: 15px;
+  text-align: center;
+  display: inline-block;
+}
+.btn-primary2{
+  background-color: purple;
+}
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary2:hover,
+.btn-primary2:active:hover {
+  background-color: #49bcf2;
+}
+nav {
+  width: 80%;
+}
+ul li a {
+  list-style: none;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  line-height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 0;
+  padding: 10px 30px;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+ul li a:hover,
+ul li a:active:hover {
+  background-color: #49bcf2;
+  border: 1px solid #49bcf2;
+  color: white;
+  text-decoration: none;
+}
+ul li a.active {
+  background-color: white;
+  border: 1px solid rgb(95, 95, 124);
+  color: black;
+  border-bottom: 0px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-left: 0;
+  float: right;
+}
+hr {
+  border-bottom: 1px solid #b8b8b8;
+  border-top: 0px;
+  height: 46px;
+}
+label {
+  float: left;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.form-control::-webkit-input-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-ms-input-placeholder 
+{
+  color: #8f8f8f;
+  opacity: 0.5; /* Firefox */
+}
+.list_panel{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 600px;
+  border: 1px solid grey;
+  margin-top: 31px;
+  min-height: 506px;
+  max-height: 800px;
+  overflow-y: auto;
+}
+.entry_panel{
+  /* display: inline-block; */
+  float:right;
+  background-color: #e5e4e4;
+  padding: 10px 25px 60px;
+  margin-top: 30px;
+}
+#dataEntry{
+  border-bottom: 1px solid white;
+}
+#dataTrail{
+  font-size: 1.5em;
+  line-height:2em;
+  padding: 10px 15px;
+  background-color: #8db1dd;
+  margin-bottom: 0;
+}
+#dataNote{
+  font-size: .75em;
+  line-height:1.5em;
+  padding: 0px 15px;
+  display: block;
+  background-color: white;
+}
+#update{
+  border: 1px solid rgb(171, 177, 226);
+  border-radius: 2px;
+  font-size: 1.2em;
+  padding: 1px 6px;
+  margin: 5px;
+}
+ul.action{
+  float: right;
+}
+.container{
+  margin-bottom: 120px;
+}
+#updater{
+  width: 150px;
+  padding: 8px;
+  text-align: center;
+}
+#btnGroup{
+  float:right;
+}
+
+@media (min-width: 1200px){
+.container{
+    max-width: 1400px;
+}
+}
