@@ -22,4 +22,4 @@ On page load, a user is able to:
 
 Sabrina Fan, 2020
 
-Special thanks to Professor Omar Patel,TA Julio Valdez, and Peter Park, Irwing Cameros and the people at the UCLA Full-stack Web Development.
+Special thanks to Professor Omar Patel, TA Julio Valdez, Peter Park, Irwing Cameros and the people at the UCLA Full-stack Web Development.
